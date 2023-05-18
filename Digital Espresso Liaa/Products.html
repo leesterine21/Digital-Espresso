@@ -1,0 +1,81 @@
+<html>
+    
+    <header>
+        <link rel="stylesheet" type=""text/css" href="styles.css"/>
+     <style>
+         .logo {
+             display: flex;
+             align-items: center;
+             justify-content:center;
+         }
+         .logo-image {
+            width: 10%;
+            height:10%;
+            padding-left: 25%;
+          }
+          
+          .text {
+            font-size: 20px;
+            padding-right: 25%;
+           
+          }
+         .product-image {
+            height: 300px;
+            width: 300px
+        }
+        table, th, td {
+            border: 1px solid #ecdec9;
+          
+          }
+          table{
+            width:80%;
+          }
+          th{
+            font-style: Rubik;
+          }
+          td{
+            font-style: Rubik;
+          }
+          footer {
+            text-align: center;
+            padding: 1px;
+            background-color: #C9A38D;
+            color: white;
+          }
+    </style>   
+    </header>
+    
+    <body>
+        
+        <div class="logo">
+            <img class ="logo-image" src="logo.png"/>
+            <div class="text">
+              <h1>Digital Espresso</h1>
+            </div>
+        </div>
+
+        <div class="topnav">
+            <a href="index.html">Home</a>
+            <a class="active" href="product.html">Products</a>
+            
+            <a href="branches.html">Branches</a>
+            <a href="aboutus.html">About Us</a>
+        </div>
+        
+        <h1>Product List</h1>
+        <table style="border:1px solid #ecdec9;margin-left:auto;margin-right:auto; color:#ecdec9">
+            <tr><th>Code</th><th>Name</th><th>Price</th></tr>
+            <tr><td>100</td><td><a href ="americano.html">Americano</a></td><td>125</td><td><img class ="product-image" src="americano.jpg"/></td></tr>
+            <tr><td>200</td><td><a href ="brewedcoffee.html">Brewed Coffee</a></td><td>100</td><td><img class ="product-image" src="brewedcoffee.jpg"/></td></tr>
+            <tr><td>300</td><td><a href ="cappuccino.html">Cappuccino</a></td><td>140</td><td><img class ="product-image" src="cappuccino.jpg"/></td></tr>
+            <tr><td>400</td><td><a href ="dalgona.html">Dalgona</a></td><td>120</td><td><img class ="product-image" src="dalgona.jpg"/></td></tr>
+            <tr><td>500</td><td><a href ="espresso.html">Espresso</a></td><td>120</td><td><img class ="product-image" src="espresso.jpg"/></td></tr>
+            <tr><td>600</td><td><a href ="frappuccino.html">Frappucino</a></td><td>200</td><td><img class ="product-image" src="frappuccino.jpg"/></td></tr>
+        </table>
+        <h6></h6>
+        <footer>
+            <p>Sip on Digital Brilliance with Digital Espresso.</p>
+            <p>@digitalespresso</p>
+          </footer>
+    </body>
+</html>
